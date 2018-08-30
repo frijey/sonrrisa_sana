@@ -15,5 +15,16 @@ namespace sonrrisa_sana
         {
             InitializeComponent();
         }
+
+        private void btnagregar_Click(object sender, EventArgs e)
+        {
+            Form f = new nuevo();
+            f.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
