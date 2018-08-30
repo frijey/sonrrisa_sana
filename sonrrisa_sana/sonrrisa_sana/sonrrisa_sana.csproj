@@ -62,6 +62,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -72,6 +73,24 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2185089.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ambox_emblem_plus.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cw-date.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ILUSTRACIONES_PPT_05-07-782x1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person-flat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0a5f17fdfbedf2e13bb1c70c2878046c.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
