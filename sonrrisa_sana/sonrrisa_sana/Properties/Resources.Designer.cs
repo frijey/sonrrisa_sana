@@ -93,6 +93,16 @@ namespace sonrrisa_sana.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap citas {
+            get {
+                object obj = ResourceManager.GetObject("citas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cw_date {
             get {
                 object obj = ResourceManager.GetObject("cw-date", resourceCulture);
@@ -106,6 +116,26 @@ namespace sonrrisa_sana.Properties {
         internal static System.Drawing.Bitmap ILUSTRACIONES_PPT_05_07_782x1024 {
             get {
                 object obj = ResourceManager.GetObject("ILUSTRACIONES_PPT_05-07-782x1024", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nuevo_ {
+            get {
+                object obj = ResourceManager.GetObject("nuevo ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pacientes {
+            get {
+                object obj = ResourceManager.GetObject("pacientes", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
