@@ -28,19 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu_principal));
+            this.btnnuevo = new System.Windows.Forms.PictureBox();
+            this.btnpacientes = new System.Windows.Forms.PictureBox();
             this.btncitas = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnpacientes = new System.Windows.Forms.PictureBox();
-            this.btnnuevo = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.btnnuevo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnpacientes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncitas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnpacientes)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnnuevo)).BeginInit();
             this.SuspendLayout();
+            // 
+            // btnnuevo
+            // 
+            this.btnnuevo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnnuevo.Image = global::sonrrisa_sana.Properties.Resources.nuevo_;
+            this.btnnuevo.Location = new System.Drawing.Point(33, 274);
+            this.btnnuevo.Name = "btnnuevo";
+            this.btnnuevo.Size = new System.Drawing.Size(400, 116);
+            this.btnnuevo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnnuevo.TabIndex = 0;
+            this.btnnuevo.TabStop = false;
+            this.btnnuevo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnnuevo_MouseDown);
+            this.btnnuevo.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnnuevo_MouseUp);
+            // 
+            // btnpacientes
+            // 
+            this.btnpacientes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnpacientes.Image = global::sonrrisa_sana.Properties.Resources.pacientes;
+            this.btnpacientes.Location = new System.Drawing.Point(29, 155);
+            this.btnpacientes.Name = "btnpacientes";
+            this.btnpacientes.Size = new System.Drawing.Size(400, 116);
+            this.btnpacientes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnpacientes.TabIndex = 0;
+            this.btnpacientes.TabStop = false;
+            this.btnpacientes.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnpacientes_MouseDown);
+            this.btnpacientes.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnpacientes_MouseUp);
             // 
             // btncitas
             // 
@@ -85,33 +112,7 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // btnpacientes
-            // 
-            this.btnpacientes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnpacientes.Image = global::sonrrisa_sana.Properties.Resources.pacientes;
-            this.btnpacientes.Location = new System.Drawing.Point(29, 155);
-            this.btnpacientes.Name = "btnpacientes";
-            this.btnpacientes.Size = new System.Drawing.Size(400, 116);
-            this.btnpacientes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnpacientes.TabIndex = 0;
-            this.btnpacientes.TabStop = false;
-            this.btnpacientes.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnpacientes_MouseDown);
-            this.btnpacientes.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnpacientes_MouseUp);
-            // 
-            // btnnuevo
-            // 
-            this.btnnuevo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnnuevo.Image = global::sonrrisa_sana.Properties.Resources.nuevo_;
-            this.btnnuevo.Location = new System.Drawing.Point(33, 274);
-            this.btnnuevo.Name = "btnnuevo";
-            this.btnnuevo.Size = new System.Drawing.Size(400, 116);
-            this.btnnuevo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnnuevo.TabIndex = 0;
-            this.btnnuevo.TabStop = false;
-            this.btnnuevo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnnuevo_MouseDown);
-            this.btnnuevo.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnnuevo_MouseUp);
-            // 
-            // Form1
+            // menu_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -123,14 +124,19 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1037, 663);
+            this.MinimumSize = new System.Drawing.Size(1037, 663);
+            this.Name = "menu_principal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.btnnuevo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnpacientes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncitas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnpacientes)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnnuevo)).EndInit();
             this.ResumeLayout(false);
 
         }

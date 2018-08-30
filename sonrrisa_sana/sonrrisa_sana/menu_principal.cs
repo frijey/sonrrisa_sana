@@ -27,6 +27,8 @@ namespace sonrrisa_sana
         private void btncitas_MouseUp(object sender, MouseEventArgs e)
         {
             agrandar(btncitas);
+            Form f = new citas();
+            f.ShowDialog();
         }
 
         private void btnpacientes_MouseDown(object sender, MouseEventArgs e)
@@ -36,7 +38,9 @@ namespace sonrrisa_sana
 
         private void btnpacientes_MouseUp(object sender, MouseEventArgs e)
         {
-            agrandar(btnpacientes);            
+            agrandar(btnpacientes);
+            Form f = new pacientes();
+            f.ShowDialog();
         }
 
         private void btnnuevo_MouseDown(object sender, MouseEventArgs e)
@@ -47,6 +51,8 @@ namespace sonrrisa_sana
         private void btnnuevo_MouseUp(object sender, MouseEventArgs e)
         {
             agrandar(btnnuevo);
+            Form f = new nuevo();
+            f.ShowDialog();
         }
 
         void achicar (Control boton)
