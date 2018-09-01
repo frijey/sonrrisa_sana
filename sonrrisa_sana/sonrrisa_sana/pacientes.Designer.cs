@@ -55,6 +55,7 @@
             // btnmostrartodo
             // 
             this.btnmostrartodo.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnmostrartodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmostrartodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmostrartodo.Location = new System.Drawing.Point(287, 434);
             this.btnmostrartodo.Name = "btnmostrartodo";
@@ -66,6 +67,7 @@
             // btnbuscar
             // 
             this.btnbuscar.BackColor = System.Drawing.Color.Cornsilk;
+            this.btnbuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnbuscar.Font = new System.Drawing.Font("Harlow Solid Italic", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnbuscar.Location = new System.Drawing.Point(484, 13);
             this.btnbuscar.Name = "btnbuscar";
@@ -77,6 +79,7 @@
             // btnagregar
             // 
             this.btnagregar.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnagregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnagregar.Location = new System.Drawing.Point(635, 12);
             this.btnagregar.Name = "btnagregar";
             this.btnagregar.Size = new System.Drawing.Size(147, 39);
@@ -141,6 +144,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(48, 434);
             this.button1.Name = "button1";
@@ -151,7 +155,8 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkSalmon;
+            this.button2.BackColor = System.Drawing.Color.GreenYellow;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(526, 434);
             this.button2.Name = "button2";
@@ -165,6 +170,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(803, 503);
             this.Controls.Add(this.tbbuscar);
             this.Controls.Add(this.button1);

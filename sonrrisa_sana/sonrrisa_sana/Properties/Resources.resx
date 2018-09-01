@@ -121,28 +121,31 @@
   <data name="2185089" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2185089.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="person-flat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\person-flat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cw-date" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cw-date.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="0a5f17fdfbedf2e13bb1c70c2878046c" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0a5f17fdfbedf2e13bb1c70c2878046c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ambox_emblem_plus.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ambox_emblem_plus.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ILUSTRACIONES_PPT_05-07-782x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ILUSTRACIONES_PPT_05-07-782x1024.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="person-flat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\person-flat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="citas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\citas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="nuevo " type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nuevo .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pacientes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pacientes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ambox_emblem_plus.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ambox_emblem_plus.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="citas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\citas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ILUSTRACIONES_PPT_05-07-782x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ILUSTRACIONES_PPT_05-07-782x1024.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smile-hi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smile-hi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
