@@ -20,5 +20,23 @@ namespace sonrrisa_sana
         {
             this.Close();
         }
+
+        private void citas_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+            else { }
+        }
+
+        private void tbbuscar_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+            else { }
+        }
     }
 }
