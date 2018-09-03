@@ -15,5 +15,10 @@ namespace sonrrisa_sana
         {
             InitializeComponent();
         }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
