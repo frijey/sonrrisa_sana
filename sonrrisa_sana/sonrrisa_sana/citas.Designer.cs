@@ -188,7 +188,6 @@
             this.Name = "citas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Citas";
-            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.citas_KeyUp);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaServicios)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

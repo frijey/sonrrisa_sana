@@ -47,17 +47,18 @@
             // 
             this.tbbuscar.BackColor = System.Drawing.Color.White;
             this.tbbuscar.Font = new System.Drawing.Font("Agency FB", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbbuscar.Location = new System.Drawing.Point(130, 17);
+            this.tbbuscar.Location = new System.Drawing.Point(128, 12);
             this.tbbuscar.Name = "tbbuscar";
             this.tbbuscar.Size = new System.Drawing.Size(335, 30);
             this.tbbuscar.TabIndex = 66;
+            this.tbbuscar.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tbbuscar_KeyUp);
             // 
             // btnmostrartodo
             // 
             this.btnmostrartodo.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnmostrartodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmostrartodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnmostrartodo.Location = new System.Drawing.Point(287, 434);
+            this.btnmostrartodo.Location = new System.Drawing.Point(285, 429);
             this.btnmostrartodo.Name = "btnmostrartodo";
             this.btnmostrartodo.Size = new System.Drawing.Size(233, 57);
             this.btnmostrartodo.TabIndex = 70;
@@ -69,7 +70,7 @@
             this.btnbuscar.BackColor = System.Drawing.Color.Cornsilk;
             this.btnbuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnbuscar.Font = new System.Drawing.Font("Harlow Solid Italic", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnbuscar.Location = new System.Drawing.Point(484, 13);
+            this.btnbuscar.Location = new System.Drawing.Point(482, 8);
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.Size = new System.Drawing.Size(129, 38);
             this.btnbuscar.TabIndex = 67;
@@ -80,7 +81,7 @@
             // 
             this.btnagregar.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnagregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnagregar.Location = new System.Drawing.Point(635, 12);
+            this.btnagregar.Location = new System.Drawing.Point(633, 7);
             this.btnagregar.Name = "btnagregar";
             this.btnagregar.Size = new System.Drawing.Size(147, 39);
             this.btnagregar.TabIndex = 71;
@@ -101,7 +102,7 @@
             this.sueldobruto,
             this.cargo});
             this.dgvListaServicios.GridColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.dgvListaServicios.Location = new System.Drawing.Point(19, 59);
+            this.dgvListaServicios.Location = new System.Drawing.Point(17, 54);
             this.dgvListaServicios.MultiSelect = false;
             this.dgvListaServicios.Name = "dgvListaServicios";
             this.dgvListaServicios.ReadOnly = true;
@@ -135,7 +136,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Mistral", 24F);
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(10, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(112, 38);
             this.label1.TabIndex = 74;
@@ -146,7 +147,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(48, 434);
+            this.button1.Location = new System.Drawing.Point(46, 429);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(233, 57);
             this.button1.TabIndex = 70;
@@ -158,7 +159,7 @@
             this.button2.BackColor = System.Drawing.Color.GreenYellow;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(526, 434);
+            this.button2.Location = new System.Drawing.Point(524, 429);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(233, 57);
             this.button2.TabIndex = 70;
@@ -171,7 +172,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
-            this.ClientSize = new System.Drawing.Size(803, 503);
+            this.ClientSize = new System.Drawing.Size(795, 492);
             this.Controls.Add(this.tbbuscar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
