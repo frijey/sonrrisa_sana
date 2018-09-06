@@ -29,5 +29,11 @@ namespace sonrrisa_sana
             }
             else { }
         }
+
+        private void btnagregar_Click(object sender, EventArgs e)
+        {
+            Form f = new nueva_cita();
+            f.ShowDialog();
+        }
     }
 }

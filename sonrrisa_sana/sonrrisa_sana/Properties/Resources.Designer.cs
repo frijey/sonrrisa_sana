@@ -93,6 +93,16 @@ namespace sonrrisa_sana.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cita {
+            get {
+                object obj = ResourceManager.GetObject("cita", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap citas {
             get {
                 object obj = ResourceManager.GetObject("citas", resourceCulture);
@@ -153,9 +163,29 @@ namespace sonrrisa_sana.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap person_flat1 {
+            get {
+                object obj = ResourceManager.GetObject("person-flat1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap smile_hi {
             get {
                 object obj = ResourceManager.GetObject("smile-hi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap telephone_icon_icons_com_70849 {
+            get {
+                object obj = ResourceManager.GetObject("telephone_icon-icons.com_70849", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

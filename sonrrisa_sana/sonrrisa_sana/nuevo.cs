@@ -11,6 +11,8 @@ namespace sonrrisa_sana
 {
     public partial class nuevo : Form
     {
+        tools tool = new tools();
+
         public nuevo()
         {
             InitializeComponent();
@@ -18,7 +20,19 @@ namespace sonrrisa_sana
 
         private void btnsalir_Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
 
+        private void btncita_MouseDown(object sender, MouseEventArgs e)
+        {
+            tool.achicar(btncita);
+        }
+
+        private void btncita_MouseUp(object sender, MouseEventArgs e)
+        {
+            tool.agrandar(btncita);
+            Form f = new nueva_cita();
+            f.ShowDialog();
         }
     }
 }

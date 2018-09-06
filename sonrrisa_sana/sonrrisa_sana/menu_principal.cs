@@ -11,8 +11,7 @@ namespace sonrrisa_sana
 {
     public partial class menu_principal : Form
     {
-        int desplazamientoHor = 10;
-        int desplazamientoVer = 5;
+        tools tool = new tools();
 
         public menu_principal()
         {
@@ -21,50 +20,38 @@ namespace sonrrisa_sana
 
         private void pictureBox4_MouseDown(object sender, MouseEventArgs e)
         {
-            achicar(btncitas);
+            tool.achicar(btncitas);
         }
 
         private void btncitas_MouseUp(object sender, MouseEventArgs e)
         {
-            agrandar(btncitas);
+            tool.agrandar(btncitas);
             Form f = new citas();
             f.ShowDialog();
         }
 
         private void btnpacientes_MouseDown(object sender, MouseEventArgs e)
         {
-            achicar(btnpacientes);
+            tool.achicar(btnpacientes);
         }
 
         private void btnpacientes_MouseUp(object sender, MouseEventArgs e)
         {
-            agrandar(btnpacientes);
+            tool.agrandar(btnpacientes);
             Form f = new pacientes();
             f.ShowDialog();
         }
 
         private void btnnuevo_MouseDown(object sender, MouseEventArgs e)
         {
-            achicar(btnnuevo);
+            tool.achicar(btnnuevo);
         }
 
         private void btnnuevo_MouseUp(object sender, MouseEventArgs e)
         {
-            agrandar(btnnuevo);
+            tool.agrandar(btnnuevo);
             Form f = new nuevo();
             f.ShowDialog();
-        }
-
-        void achicar (Control boton)
-        {
-            boton.Size = new System.Drawing.Size(360, 104);
-            boton.Location = new Point(boton.Location.X + desplazamientoHor, boton.Location.Y + desplazamientoVer);
-        }
-
-        void agrandar (Control boton)
-        {
-            boton.Size = new System.Drawing.Size(400, 116);
-            boton.Location = new Point(boton.Location.X - desplazamientoHor, boton.Location.Y - desplazamientoVer);
         }
 
     }

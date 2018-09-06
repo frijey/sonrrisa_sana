@@ -110,8 +110,9 @@
             this.btnagregar.Name = "btnagregar";
             this.btnagregar.Size = new System.Drawing.Size(147, 39);
             this.btnagregar.TabIndex = 81;
-            this.btnagregar.Text = "Agregar Paciente (+)";
+            this.btnagregar.Text = "Nueva Cita (+)";
             this.btnagregar.UseVisualStyleBackColor = false;
+            this.btnagregar.Click += new System.EventHandler(this.btnagregar_Click);
             // 
             // dgvListaServicios
             // 
@@ -171,7 +172,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(795, 492);
+            this.ClientSize = new System.Drawing.Size(803, 503);
             this.Controls.Add(this.tbbuscar);
             this.Controls.Add(this.btnseleccionar);
             this.Controls.Add(this.btnsalir);
