@@ -113,6 +113,26 @@ namespace sonrrisa_sana.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap clock_559963_960_720 {
+            get {
+                object obj = ResourceManager.GetObject("clock-559963_960_720", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap compact_camera {
+            get {
+                object obj = ResourceManager.GetObject("compact-camera", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cw_date {
             get {
                 object obj = ResourceManager.GetObject("cw-date", resourceCulture);

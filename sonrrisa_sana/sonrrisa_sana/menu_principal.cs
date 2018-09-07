@@ -20,37 +20,37 @@ namespace sonrrisa_sana
 
         private void pictureBox4_MouseDown(object sender, MouseEventArgs e)
         {
-            tool.achicar(btncitas);
+            tool.achicarg(btncitas);
         }
 
         private void btncitas_MouseUp(object sender, MouseEventArgs e)
         {
-            tool.agrandar(btncitas);
-            Form f = new citas();
+            tool.agrandarg(btncitas);
+            Form f = new lista_de_citas();
             f.ShowDialog();
         }
 
         private void btnpacientes_MouseDown(object sender, MouseEventArgs e)
         {
-            tool.achicar(btnpacientes);
+            tool.achicarg(btnpacientes);
         }
 
         private void btnpacientes_MouseUp(object sender, MouseEventArgs e)
         {
-            tool.agrandar(btnpacientes);
-            Form f = new pacientes();
+            tool.agrandarg(btnpacientes);
+            Form f = new lista_de_pacientes();
             f.ShowDialog();
         }
 
         private void btnnuevo_MouseDown(object sender, MouseEventArgs e)
         {
-            tool.achicar(btnnuevo);
+            tool.achicarg(btnnuevo);
         }
 
         private void btnnuevo_MouseUp(object sender, MouseEventArgs e)
         {
-            tool.agrandar(btnnuevo);
-            Form f = new nuevo();
+            tool.agrandarg(btnnuevo);
+            Form f = new nuevo_paciente();
             f.ShowDialog();
         }
 
