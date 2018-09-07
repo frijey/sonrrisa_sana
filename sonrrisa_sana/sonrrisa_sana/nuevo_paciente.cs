@@ -13,6 +13,7 @@ namespace sonrrisa_sana
     {
         tools tool = new tools();
         string RutaFoto = "C:\\sonrrisa_sana\\fotos\\pacientes\\default.jpg";
+        public static bool CargarPaciente = false;
 
         public nuevo_paciente()
         {
@@ -21,7 +22,15 @@ namespace sonrrisa_sana
 
         private void nuevo_paciente_Load(object sender, EventArgs e)
         {
-
+            //Definir si se está creando un nuevo paciente o no...
+            if (CargarPaciente)
+            {
+                CargarDatosPaciente();
+            }
+            else
+            {
+                NuevoPaciente();
+            }
         }
 
         private void btnsalir_Click(object sender, EventArgs e)
@@ -67,6 +76,15 @@ namespace sonrrisa_sana
         }
 
         void NuevoPaciente()
+        {
+            //Nuevo Paciente
+            cbsexo.SelectedIndex = 0;
+            cbestadocivil.SelectedIndex = 0;
+
+
+        }
+
+        void CargarDatosPaciente()
         {
 
         }

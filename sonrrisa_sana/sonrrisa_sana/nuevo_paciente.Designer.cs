@@ -43,14 +43,14 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtedad = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtsexo = new System.Windows.Forms.ComboBox();
+            this.cbsexo = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtfechaingreso = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtcedula = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.txtestadocivil = new System.Windows.Forms.ComboBox();
+            this.cbestadocivil = new System.Windows.Forms.ComboBox();
             this.dtfechanac = new System.Windows.Forms.DateTimePicker();
             this.label11 = new System.Windows.Forms.Label();
             this.txtlugarnac = new System.Windows.Forms.TextBox();
@@ -214,11 +214,11 @@
             this.txtedad.BackColor = System.Drawing.Color.White;
             this.txtedad.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtedad.Enabled = false;
-            this.txtedad.Font = new System.Drawing.Font("Agency FB", 14F, System.Drawing.FontStyle.Bold);
+            this.txtedad.Font = new System.Drawing.Font("Arial Narrow", 12.75F);
             this.txtedad.ForeColor = System.Drawing.Color.YellowGreen;
             this.txtedad.Location = new System.Drawing.Point(140, 230);
             this.txtedad.Name = "txtedad";
-            this.txtedad.Size = new System.Drawing.Size(45, 30);
+            this.txtedad.Size = new System.Drawing.Size(45, 27);
             this.txtedad.TabIndex = 3;
             this.txtedad.Text = "23";
             this.txtedad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -233,20 +233,20 @@
             this.label6.TabIndex = 87;
             this.label6.Text = "Sexo";
             // 
-            // txtsexo
+            // cbsexo
             // 
-            this.txtsexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.txtsexo.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Bold);
-            this.txtsexo.ForeColor = System.Drawing.Color.YellowGreen;
-            this.txtsexo.FormattingEnabled = true;
-            this.txtsexo.Items.AddRange(new object[] {
+            this.cbsexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbsexo.Font = new System.Drawing.Font("Arial Narrow", 12.75F);
+            this.cbsexo.ForeColor = System.Drawing.Color.Black;
+            this.cbsexo.FormattingEnabled = true;
+            this.cbsexo.Items.AddRange(new object[] {
             "Masculino",
             "Femenino",
             "Indefinido"});
-            this.txtsexo.Location = new System.Drawing.Point(140, 266);
-            this.txtsexo.Name = "txtsexo";
-            this.txtsexo.Size = new System.Drawing.Size(87, 28);
-            this.txtsexo.TabIndex = 4;
+            this.cbsexo.Location = new System.Drawing.Point(140, 266);
+            this.cbsexo.Name = "cbsexo";
+            this.cbsexo.Size = new System.Drawing.Size(103, 30);
+            this.cbsexo.TabIndex = 4;
             // 
             // label7
             // 
@@ -296,7 +296,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Monotype Corsiva", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label9.Location = new System.Drawing.Point(248, 234);
+            this.label9.Location = new System.Drawing.Point(268, 234);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(121, 26);
             this.label9.TabIndex = 87;
@@ -306,26 +306,26 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Monotype Corsiva", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label10.Location = new System.Drawing.Point(241, 266);
+            this.label10.Location = new System.Drawing.Point(263, 270);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(128, 26);
             this.label10.TabIndex = 87;
             this.label10.Text = "Fecha de Nac";
             // 
-            // txtestadocivil
+            // cbestadocivil
             // 
-            this.txtestadocivil.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.txtestadocivil.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Bold);
-            this.txtestadocivil.ForeColor = System.Drawing.Color.YellowGreen;
-            this.txtestadocivil.FormattingEnabled = true;
-            this.txtestadocivil.Items.AddRange(new object[] {
+            this.cbestadocivil.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbestadocivil.Font = new System.Drawing.Font("Arial Narrow", 12.75F);
+            this.cbestadocivil.ForeColor = System.Drawing.Color.Black;
+            this.cbestadocivil.FormattingEnabled = true;
+            this.cbestadocivil.Items.AddRange(new object[] {
             "Soltero/a",
             "Casado/a",
             "Indefinido"});
-            this.txtestadocivil.Location = new System.Drawing.Point(375, 234);
-            this.txtestadocivil.Name = "txtestadocivil";
-            this.txtestadocivil.Size = new System.Drawing.Size(130, 28);
-            this.txtestadocivil.TabIndex = 5;
+            this.cbestadocivil.Location = new System.Drawing.Point(395, 232);
+            this.cbestadocivil.Name = "cbestadocivil";
+            this.cbestadocivil.Size = new System.Drawing.Size(130, 30);
+            this.cbestadocivil.TabIndex = 5;
             // 
             // dtfechanac
             // 
@@ -333,7 +333,7 @@
             this.dtfechanac.CalendarForeColor = System.Drawing.Color.Black;
             this.dtfechanac.Font = new System.Drawing.Font("Arial Narrow", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtfechanac.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtfechanac.Location = new System.Drawing.Point(375, 266);
+            this.dtfechanac.Location = new System.Drawing.Point(395, 270);
             this.dtfechanac.Name = "dtfechanac";
             this.dtfechanac.Size = new System.Drawing.Size(130, 27);
             this.dtfechanac.TabIndex = 6;
@@ -399,7 +399,7 @@
             this.txtgradoacad.ForeColor = System.Drawing.Color.Teal;
             this.txtgradoacad.Location = new System.Drawing.Point(243, 376);
             this.txtgradoacad.Name = "txtgradoacad";
-            this.txtgradoacad.Size = new System.Drawing.Size(186, 26);
+            this.txtgradoacad.Size = new System.Drawing.Size(186, 27);
             this.txtgradoacad.TabIndex = 9;
             // 
             // label14
@@ -510,13 +510,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cornsilk;
-            this.ClientSize = new System.Drawing.Size(795, 492);
+            this.ClientSize = new System.Drawing.Size(803, 503);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btncita);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.dtfechanac);
-            this.Controls.Add(this.txtestadocivil);
-            this.Controls.Add(this.txtsexo);
+            this.Controls.Add(this.cbestadocivil);
+            this.Controls.Add(this.cbsexo);
             this.Controls.Add(this.txtfechaingreso);
             this.Controls.Add(this.txtidpaciente);
             this.Controls.Add(this.txtgradoacad);
@@ -585,14 +585,14 @@
         private System.Windows.Forms.Label label5;
         public System.Windows.Forms.TextBox txtedad;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox txtsexo;
+        private System.Windows.Forms.ComboBox cbsexo;
         private System.Windows.Forms.Label label7;
         public System.Windows.Forms.TextBox txtfechaingreso;
         private System.Windows.Forms.Label label8;
         public System.Windows.Forms.TextBox txtcedula;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox txtestadocivil;
+        private System.Windows.Forms.ComboBox cbestadocivil;
         private System.Windows.Forms.DateTimePicker dtfechanac;
         private System.Windows.Forms.Label label11;
         public System.Windows.Forms.TextBox txtlugarnac;
