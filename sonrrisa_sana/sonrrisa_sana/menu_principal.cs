@@ -11,7 +11,14 @@ namespace sonrrisa_sana
 {
     public partial class menu_principal : Form
     {
+        //Acceso a la clase de Herramientas
         tools tool = new tools();
+
+        //Variables estáticas para interactuar...
+        public static string PacienteSeleccionado = "1";
+
+        //Variable para confirmar las selecciones
+        public static bool Realizó = false;
 
         public menu_principal()
         {
@@ -50,9 +57,13 @@ namespace sonrrisa_sana
         private void btnnuevo_MouseUp(object sender, MouseEventArgs e)
         {
             tool.agrandarg(btnnuevo);
-            Form f = new nuevo_paciente();
+            Form f = new info_paciente();
             f.ShowDialog();
         }
 
+        private void menu_principal_Load(object sender, EventArgs e)
+        {
+            //Nothing For Now
+        }
     }
 }

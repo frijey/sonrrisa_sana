@@ -33,14 +33,14 @@
             this.btnmostrartodo = new System.Windows.Forms.Button();
             this.btnbuscar = new System.Windows.Forms.Button();
             this.btnagregar = new System.Windows.Forms.Button();
-            this.dgvListaServicios = new System.Windows.Forms.DataGridView();
+            this.dgvPacientes = new System.Windows.Forms.DataGridView();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sueldobruto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cargo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvListaServicios)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPacientes)).BeginInit();
             this.SuspendLayout();
             // 
             // tbbuscar
@@ -89,27 +89,27 @@
             this.btnagregar.UseVisualStyleBackColor = false;
             this.btnagregar.Click += new System.EventHandler(this.btnagregar_Click);
             // 
-            // dgvListaServicios
+            // dgvPacientes
             // 
-            this.dgvListaServicios.AllowUserToAddRows = false;
-            this.dgvListaServicios.AllowUserToDeleteRows = false;
-            this.dgvListaServicios.AllowUserToResizeColumns = false;
-            this.dgvListaServicios.AllowUserToResizeRows = false;
-            this.dgvListaServicios.BackgroundColor = System.Drawing.Color.White;
-            this.dgvListaServicios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvListaServicios.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvPacientes.AllowUserToAddRows = false;
+            this.dgvPacientes.AllowUserToDeleteRows = false;
+            this.dgvPacientes.AllowUserToResizeColumns = false;
+            this.dgvPacientes.AllowUserToResizeRows = false;
+            this.dgvPacientes.BackgroundColor = System.Drawing.Color.White;
+            this.dgvPacientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPacientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Nombre,
             this.sueldobruto,
             this.cargo});
-            this.dgvListaServicios.GridColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.dgvListaServicios.Location = new System.Drawing.Point(17, 54);
-            this.dgvListaServicios.MultiSelect = false;
-            this.dgvListaServicios.Name = "dgvListaServicios";
-            this.dgvListaServicios.ReadOnly = true;
-            this.dgvListaServicios.RowHeadersVisible = false;
-            this.dgvListaServicios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvListaServicios.Size = new System.Drawing.Size(763, 369);
-            this.dgvListaServicios.TabIndex = 68;
+            this.dgvPacientes.GridColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.dgvPacientes.Location = new System.Drawing.Point(17, 54);
+            this.dgvPacientes.MultiSelect = false;
+            this.dgvPacientes.Name = "dgvPacientes";
+            this.dgvPacientes.ReadOnly = true;
+            this.dgvPacientes.RowHeadersVisible = false;
+            this.dgvPacientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvPacientes.Size = new System.Drawing.Size(763, 369);
+            this.dgvPacientes.TabIndex = 68;
             // 
             // Nombre
             // 
@@ -167,29 +167,30 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // pacientes
+            // lista_de_pacientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
-            this.ClientSize = new System.Drawing.Size(795, 492);
+            this.ClientSize = new System.Drawing.Size(803, 503);
             this.Controls.Add(this.tbbuscar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnmostrartodo);
             this.Controls.Add(this.btnbuscar);
             this.Controls.Add(this.btnagregar);
-            this.Controls.Add(this.dgvListaServicios);
+            this.Controls.Add(this.dgvPacientes);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(811, 530);
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(811, 530);
-            this.Name = "pacientes";
+            this.Name = "lista_de_pacientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pacientes";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvListaServicios)).EndInit();
+            this.Load += new System.EventHandler(this.lista_de_pacientes_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPacientes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -201,7 +202,7 @@
         private System.Windows.Forms.Button btnmostrartodo;
         private System.Windows.Forms.Button btnbuscar;
         private System.Windows.Forms.Button btnagregar;
-        private System.Windows.Forms.DataGridView dgvListaServicios;
+        private System.Windows.Forms.DataGridView dgvPacientes;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn sueldobruto;
         private System.Windows.Forms.DataGridViewTextBoxColumn cargo;

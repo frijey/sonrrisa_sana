@@ -9,13 +9,13 @@ using System.Windows.Forms;
 
 namespace sonrrisa_sana
 {
-    public partial class nuevo_paciente : Form
+    public partial class info_paciente : Form
     {
         tools tool = new tools();
         string RutaFoto = "C:\\sonrrisa_sana\\fotos\\pacientes\\default.jpg";
         public static bool CargarPaciente = false;
 
-        public nuevo_paciente()
+        public info_paciente()
         {
             InitializeComponent();
         }
@@ -80,7 +80,6 @@ namespace sonrrisa_sana
             //Nuevo Paciente
             cbsexo.SelectedIndex = 0;
             cbestadocivil.SelectedIndex = 0;
-
 
         }
 

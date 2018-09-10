@@ -56,6 +56,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.lblcita = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -86,6 +87,7 @@
             // textBox7
             // 
             this.textBox7.BackColor = System.Drawing.Color.White;
+            this.textBox7.Enabled = false;
             this.textBox7.Font = new System.Drawing.Font("Agency FB", 14F, System.Drawing.FontStyle.Bold);
             this.textBox7.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.textBox7.Location = new System.Drawing.Point(149, 185);
@@ -98,6 +100,7 @@
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.Color.White;
+            this.textBox2.Enabled = false;
             this.textBox2.Font = new System.Drawing.Font("Agency FB", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.DodgerBlue;
             this.textBox2.Location = new System.Drawing.Point(149, 149);
@@ -109,6 +112,7 @@
             // tbbuscar
             // 
             this.tbbuscar.BackColor = System.Drawing.Color.White;
+            this.tbbuscar.Enabled = false;
             this.tbbuscar.Font = new System.Drawing.Font("Agency FB", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbbuscar.ForeColor = System.Drawing.Color.DodgerBlue;
             this.tbbuscar.Location = new System.Drawing.Point(149, 111);
@@ -390,12 +394,24 @@
             this.lblcita.TabIndex = 101;
             this.lblcita.Text = "1";
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("High Tower Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(243, 78);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(241, 27);
+            this.button2.TabIndex = 97;
+            this.button2.Text = "Seleccionar Paciente";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
             // nueva_cita
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
-            this.ClientSize = new System.Drawing.Size(751, 420);
+            this.ClientSize = new System.Drawing.Size(759, 431);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox4);
@@ -413,6 +429,7 @@
             this.Controls.Add(this.tbbuscar);
             this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.btnbuscar);
             this.Controls.Add(this.lblcita);
             this.Controls.Add(this.label9);
@@ -468,5 +485,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label lblcita;
+        private System.Windows.Forms.Button button2;
     }
 }

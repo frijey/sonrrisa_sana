@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu_principal));
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.btnnuevo = new System.Windows.Forms.PictureBox();
             this.btnpacientes = new System.Windows.Forms.PictureBox();
             this.btncitas = new System.Windows.Forms.PictureBox();
@@ -37,8 +39,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnnuevo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnpacientes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncitas)).BeginInit();
@@ -58,6 +58,28 @@
             this.label1.Size = new System.Drawing.Size(341, 79);
             this.label1.TabIndex = 83;
             this.label1.Text = "Sonrrisa Sana";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Silver;
+            this.label2.Location = new System.Drawing.Point(873, 104);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(144, 25);
+            this.label2.TabIndex = 83;
+            this.label2.Text = "Sandra Escalante";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Poor Richard", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.PowderBlue;
+            this.label3.Location = new System.Drawing.Point(656, 29);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(141, 24);
+            this.label3.TabIndex = 83;
+            this.label3.Text = "Clínica Dental";
             // 
             // btnnuevo
             // 
@@ -130,7 +152,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::sonrrisa_sana.Properties.Resources.smile_hi;
+            this.pictureBox4.Image = global::sonrrisa_sana.Properties.Resources.button_41700__3401;
             this.pictureBox4.Location = new System.Drawing.Point(948, 33);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(69, 68);
@@ -138,34 +160,12 @@
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Silver;
-            this.label2.Location = new System.Drawing.Point(873, 104);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(144, 25);
-            this.label2.TabIndex = 83;
-            this.label2.Text = "Sandra Escalante";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Poor Richard", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.PowderBlue;
-            this.label3.Location = new System.Drawing.Point(656, 29);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(141, 24);
-            this.label3.TabIndex = 83;
-            this.label3.Text = "Clínica Dental";
-            // 
             // menu_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1021, 625);
+            this.ClientSize = new System.Drawing.Size(1029, 636);
             this.Controls.Add(this.btnnuevo);
             this.Controls.Add(this.btnpacientes);
             this.Controls.Add(this.btncitas);
@@ -183,6 +183,7 @@
             this.Name = "menu_principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sonrrisa Sana";
+            this.Load += new System.EventHandler(this.menu_principal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnnuevo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnpacientes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncitas)).EndInit();

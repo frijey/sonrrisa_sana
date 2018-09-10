@@ -93,6 +93,26 @@ namespace sonrrisa_sana.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap button_41700__340 {
+            get {
+                object obj = ResourceManager.GetObject("button-41700__340", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap button_41700__3401 {
+            get {
+                object obj = ResourceManager.GetObject("button-41700__3401", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cita {
             get {
                 object obj = ResourceManager.GetObject("cita", resourceCulture);

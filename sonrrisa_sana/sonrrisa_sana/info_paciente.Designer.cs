@@ -1,6 +1,6 @@
 ﻿namespace sonrrisa_sana
 {
-    partial class nuevo_paciente
+    partial class info_paciente
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(nuevo_paciente));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(info_paciente));
             this.txtnombre = new System.Windows.Forms.TextBox();
             this.btnsalir = new System.Windows.Forms.Button();
             this.btnbuscar = new System.Windows.Forms.Button();
@@ -62,6 +62,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.btncita = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.ptbfoto = new System.Windows.Forms.PictureBox();
@@ -438,7 +439,7 @@
             // button2
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(576, 194);
+            this.button2.Location = new System.Drawing.Point(575, 168);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(112, 23);
             this.button2.TabIndex = 96;
@@ -446,11 +447,24 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.GreenYellow;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(549, 294);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(220, 36);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "[ Información Médica ]";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.btnsalir_Click);
+            // 
             // btncita
             // 
             this.btncita.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncita.Image = global::sonrrisa_sana.Properties.Resources.cita;
-            this.btncita.Location = new System.Drawing.Point(535, 230);
+            this.btncita.Location = new System.Drawing.Point(535, 200);
             this.btncita.Name = "btncita";
             this.btncita.Size = new System.Drawing.Size(245, 91);
             this.btncita.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -475,7 +489,7 @@
             this.ptbfoto.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.ptbfoto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ptbfoto.Image = global::sonrrisa_sana.Properties.Resources.person_flat;
-            this.ptbfoto.Location = new System.Drawing.Point(576, 38);
+            this.ptbfoto.Location = new System.Drawing.Point(575, 12);
             this.ptbfoto.Name = "ptbfoto";
             this.ptbfoto.Size = new System.Drawing.Size(150, 150);
             this.ptbfoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -487,7 +501,7 @@
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::sonrrisa_sana.Properties.Resources.compact_camera;
-            this.pictureBox1.Location = new System.Drawing.Point(689, 192);
+            this.pictureBox1.Location = new System.Drawing.Point(688, 166);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(40, 28);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -497,7 +511,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::sonrrisa_sana.Properties.Resources.smile_hi;
+            this.pictureBox4.Image = global::sonrrisa_sana.Properties.Resources.button_41700__340;
             this.pictureBox4.Location = new System.Drawing.Point(733, 348);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(47, 55);
@@ -505,7 +519,7 @@
             this.pictureBox4.TabIndex = 91;
             this.pictureBox4.TabStop = false;
             // 
-            // nuevo_paciente
+            // info_paciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -526,6 +540,7 @@
             this.Controls.Add(this.txtcedula);
             this.Controls.Add(this.txtapellido);
             this.Controls.Add(this.txtnombre);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnbuscar);
@@ -554,9 +569,9 @@
             this.MaximumSize = new System.Drawing.Size(811, 530);
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(811, 530);
-            this.Name = "nuevo_paciente";
+            this.Name = "info_paciente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Nuevo Paciente";
+            this.Text = "Información del Paciente";
             this.Load += new System.EventHandler(this.nuevo_paciente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btncita)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -608,5 +623,6 @@
         private System.Windows.Forms.PictureBox btncita;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button3;
     }
 }
